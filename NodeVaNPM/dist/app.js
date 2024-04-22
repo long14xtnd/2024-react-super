@@ -16,7 +16,7 @@
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _untils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./untils */ \"./src/untils.js\");\n\r\nconsole.log((0,_untils__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(3,4));\n\n//# sourceURL=webpack://nodevanpm/./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _untils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./untils */ \"./src/untils.js\");\n\r\nconsole.log((0,_untils__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(10,4));\n\n//# sourceURL=webpack://nodevanpm/./src/main.js?");
 
 /***/ }),
 

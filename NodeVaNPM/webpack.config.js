@@ -2,9 +2,10 @@ const path =require('path');
 module.exports = {
     mode:'development',
     entry:{
-        app:path.resolve('src/index.js'),
+        app:path.resolve('src/main.js'),
     },
     output:{
-        path:path.resolve(__dirname,'dist')
+        path:path.resolve(__dirname,'dist'),
+        filename:'[name].js'
     }
 }

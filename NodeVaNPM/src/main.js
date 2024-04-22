@@ -1,2 +1,2 @@
 import sum from './untils'
-console.log(sum(3,4));
+console.log(sum(10,4));
