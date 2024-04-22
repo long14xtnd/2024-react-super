@@ -32,8 +32,40 @@ console.log(cloneUser == user); //Trong JavaScript, toán tử so sánh == sẽ 
 //   return c;
 // };
 // const value = handle(1, 2, 3, 4, 5, 6);
-const handle = ({ a, b, ...c }) => {
-  return c;
-};
-const value = handle({ a: 1, b: 2, c: 3, d: 4, e: 5 });
-console.log(value);
+// const handle = ({ a, b, ...c }) => {
+//   return c;
+// };
+// const value = handle({ a: 1, b: 2, c: 3, d: 4, e: 5 });
+// console.log(value);
+
+
+// let newUser={name:"John"}
+// let newClone=newUser
+// newClone.name="hailong"
+// console.log(newUser.name);
+
+// const test1={age:23}
+// const test2={...test1}
+// test2.age=30
+// console.log(test1.age);
+
+
+//Con trỏ this
+
+
+
+  import {React,value,handle} from "./react.js";
+  console.log(React);
+  console.log(value);
+  handle();
+
+  const h1=document.getElementsByTagName('h1')[0];
+  console.log(h1);
+  h1.style.color="green";
+
+  const h2=document.createElement('h2');
+  h2.textContent="Hailongdev"
+  h2.style.color="red"
+  console.log(document.getElementsByTagName('h2')[0]);
+  document.body.appendChild(h2);
+  // console.log(document.getElementsByTagName('h2')[0]);
