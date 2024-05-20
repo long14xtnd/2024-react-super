@@ -1,13 +1,17 @@
 # 2024-react-super
+
 ## long đẹp trai
+
 [bấm vào đây][google.com]
 
 **in đậm**
 
-*in nghiêng*
+_in nghiêng_
 
 đây là `git bash`
 
 ```
 const name = 'Hailongdev'
 ```
+
+HandleB da edit
