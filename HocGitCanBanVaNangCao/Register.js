@@ -1,3 +1,3 @@
-const Register = (){
-    console.log('aasdsd')
-}
+const Register = () => {
+  console.log("hahaha");
+};
